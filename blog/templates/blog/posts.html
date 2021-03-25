@@ -1,0 +1,19 @@
+    {% extends 'blog/glavnaya.html' %}
+
+    {% block post %}
+        {% for post in posts %}
+            <div class="post"> 
+                <div align="center">
+                <h2><a href="{% url 'post_detail' pk=post.pk %}"><p><font size="5" color="green" face="Arial">{{ post.title }}</font></p></a></h2>
+<!--                <p>{{ post.text|linebreaksbr }}</p> --><!-- Код для отображения всего текста -->
+                 <p><a href="{% url 'post_detail' pk=post.pk %}">Читать статью>></a></p>
+
+                </div>
+            
+                <div align="right">
+                    {{ post.published_date }}
+                </div>
+            </div>
+        {% endfor %}
+    {% endblock post %}
+

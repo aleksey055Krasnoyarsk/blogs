@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Жизнь - это развитие!</title>
+      <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+    <div class="header">
+      <h1>Жизь - это развитие!</h1>
+        <h4>Блог о развитии личности</h4>
+    </div>
+
+
+    <div class="clear"></div>
+  </div>
+   {% block post %}{% endblock %}
+</body>
+</html>

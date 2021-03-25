@@ -1,0 +1,47 @@
+
+.header{
+    margin: 0 auto;
+    width: 1100px;
+    height: 200px;
+    background-color: #F0FFFF;
+    margin-bottom: 10px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+
+
+
+
+h1{
+    color: #41874E;
+    font: 40px Georgia;
+    margin-left: 300px;
+}
+
+h2 { text-indent: 25px; color:  #191970; }
+
+h3 { text-indent: 25px; color:  #000000; margin-top: 5%; }
+
+
+
+
+h4{
+    width: 200px;
+    color: #556B2F;
+    font-style: italic;
+    margin: 70px 0 0 30px;
+}
+
+
+
+div { margin-left: 10%; margin-right: 7%; margin-top: 10%; }
+
+
+p { text-indent: 25px; }
+
+
